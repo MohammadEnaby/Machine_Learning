@@ -14,4 +14,4 @@ Before running the project, ensure that you have the following dependencies inst
 You can install the required packages using `pip`:
 
 ```bash
-pip install pandas numpy matplotlib
+pip install pandas numpy plotly
