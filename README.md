@@ -9,9 +9,10 @@ Before running the project, ensure that you have the following dependencies inst
 - Python 3.x
 - Pandas
 - NumPy
-- Matplotlib
+- Plotly.express
+- streamlit
 
 You can install the required packages using `pip`:
 
 ```bash
-pip install pandas numpy plotly
+pip install pandas numpy plotly streamlit
