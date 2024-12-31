@@ -27,8 +27,8 @@ python PCA.py
 The script contains example calls, such as:
 
 ```python
-compare_cities("ex1/knesset_25.xlsx", 20000)
-compare_parties("ex1/knesset_25.xlsx", 20000)
+compare_cities("path/to/your/file", threshold)
+compare_parties("path/to/your/file", threshold)
 ```
 
 ### Example Workflow:
