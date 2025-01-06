@@ -1,7 +1,7 @@
 import streamlit as st
 import plotly.express as px
 from PCA import load_data, group_and_aggregate_data, remove_sparse_columns, dimensionality_reduction
-#https://pca2025.streamlit.app/
+
 def display_explained_variance(explained_variance_ratio):
     """
     Display the explained variance ratio for each principal component.
