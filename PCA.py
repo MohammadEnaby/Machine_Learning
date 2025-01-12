@@ -160,4 +160,4 @@ def compare_parties(file_path, threshold):
 
 
 # Example call (uncomment to use)
-# compare_cities("ex1/knesset_25.xlsx", 20000)
+# compare_cities("knesset_25.xlsx", 20000)
