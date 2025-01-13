@@ -77,7 +77,7 @@ def dimensionality_reduction(df, num_components, meta_columns):
     metadata = df[meta_columns]
     numeric_data = df.drop(columns=meta_columns)
 
-    standardized_data = (numeric_data - numeric_data.mean()) / numeric_data.std()
+    standardized_data = numeric_data.apply(lambda col: (col - col.mean()) / col.std(), axis=0)
     standardized_data = standardized_data.fillna(0).replace([np.inf, -np.inf], 0)
     
     cov_matrix = np.cov(standardized_data.T)
